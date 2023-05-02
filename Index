@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>IT Solutions</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <h1 class="logo"></h1>
+            <ul id="navbar-items">
+                <li><a href="#showcase">Início</a></li>
+                <li>| <a href="#companies"> Sobre</a> |</li>
+                <li><a href="#gallery"> Galeria</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="showcase">
+        <div id="showcase-container">
+            <h2>Moda nos Anos 70</h2>
+            <p>Vamos ver como era a extravagante moda na década de 70</p>
+            <a class="btn" href="#companies">Saiba mais</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="companies">
+        <div class="headline">Nossas redes socias</div>
+        <div id="companies-container">
+           <a href=""><img src="tumblr.png" alt="" class="company"></a>
+            <a href=""><img src="insta.jpg" alt="" class="company"></a>
+            <a href=""><img src="tw.png" alt="" class="company"></a>
+            <a href=""><img src="git.png" alt="" class="company"></a>
+        </div>
+    </section>
+
+
+    <section id="features">
+        <div class="headline">Decada de 70 e sua moda</div>
+        <div id="features-container">
+            <div class="feature">
+                <i class='bx bxs-t-shirt'></i>
+                <span class="title">O que estava na moda nos anos 70?</span>
+                <p>Saias, vestidos, batas, calças bocas de sino, estampas psicodélicas e muito brilho estão entre as principais 
+                referências do período. Cabelos naturais, black power, franjas e ondulados eram tendência.</p>
+            </div>
+            <div class="feature">
+                <i class='bx bx-trending-up' ></i>
+                <span class="title">O que influenciou a moda nos anos 70?</span>
+                <p>Toda a década de 70 foi influenciada pela música. Os festivais da era anterior, 
+                em especial o de Woodstock (1969), chamaram a atenção para o vestuário dos hippies.</p>
+            </div>
+            <div class="feature">
+                <i class='bx bxl-deezer' ></i>
+                <span class="title">Quais artistas inspiravam a moda da década de 70?</span>
+                <p>Por fim, a de 70 tem Gucci, calça boca de sino, plataforma, Diane von Furstenberg,
+                movimento punk com Vivienne Westwood e a androginia de David Bowie.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="product">
+        <div class="headline">Como Surgiu ?</div>
+        <div id="product-container">
+            <img src="/img/iphone-x.png" alt="">
+            <div class="items">
+                <div class="item">
+                    <i class='bx bx-music' ></i>
+                    <p>"Os hippies originais que viviam em São Francisco em meados dos anos sessenta não poderiam imaginar que, 
+                    no final da década, seu estilo maluco de se vestir iria se tornar alta moda. O deles era um “anti-estilo”, que rejeitava toda a ética de trabalho da sociedade ocidental junto com suas roupas conformistas".</p>
+                </div>
+                <div class="item">
+                    <i class='bx bxs-offer'></i>
+                    <p>"Os anos setenta viram um interesse revitalizado em artesanato como joalheria, cerâmica, tricô, bordados e serigrafia em tecidos.
+                     Conselhos nacionais e federais foram criados para promover o artesanato, especialmente as peças únicas desenhadas e feitas por graduados das escolas de arte". </p>
+                </div>
+                <div class="item">
+                    <i class='bx bxs-guitar-amp' ></i>
+                    <p>Iniciado nos meados da década de 1970, o punk rock foi um movimento musical e também cultural que se opunha à pacificidade dos hippies.
+                         Nos Estados Unidos, a principal banda do gênero foi Os Ramones, e na Grã-Bretanha, Sex Pistols.</p>
+                </div>
+                <div class="item">
+                    <i class='bx bxs-disc'></i>
+                    <p>As letras do punk rock falavam da miséria, do desemprego, críticas à política, ao Estado, à religião,
+                     ao sistema como um todo. E tudo isso embalado por um som alto, por vezes desordenado e bastante agressivo. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="headline">O que acham da moda antiga ?</div>
+        <div id="testimonials-container">
+            <div class="testimonial">
+                <img src="/img/person-1.jpeg" alt="" class="person">
+                <p>Na história da moda antiga, o jeito de se vestir determinava a classe que você pertencia,
+                 existindo, inclusive, leis que restringiam certas cores e tecidos somente aos nobres.</p>
+            </div>
+            <div class="testimonial">
+                <img src="/img/person-2.jpeg" alt="" class="person">
+                <p>Século XX: Nesta época, vemos uma simplificação nas vestimentas. Tudo passou a ser menos rígido,
+                adornado e colorido, sendo que a funcionalidade virou um ponto importante.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="headline">Moda anos 70</div>
+        <div id="gallery-container">
+            <img src="globo.jpg" alt="" class="gallery-image">
+            <img src="70.jpg" alt="" class="gallery-image">
+            <img src="back.jpg" alt="" class="gallery-image">
+            <img src="70.1.webp" alt="" class="gallery-image">
+            <img src="70.2.jpg" alt="" class="gallery-image">
+            <img src="70.3.webp" alt="" class="gallery-image">
+        </div>
+    </section>
+
+    <footer id="footer">
+        <p>Copyright 2020 - All rights reserved.</p>
+        <p></p>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Smooth Scrolling -->
+    <script src="script.js"></script>
+</body>
+</html>
