@@ -169,6 +169,10 @@ a {
     align-items: center;
 }
 
+#product-container img {
+    margin-right: 200px;
+}
+
 .items {
     width: 650px;
 }
@@ -250,4 +254,20 @@ a {
     color: #eee;
     padding: 30px;
     text-align: center;
+}
+
+
+/*MEDIA*/
+
+@media (max-width: 1400px) {
+	#navbar-container{
+        margin-left: 35rem;
+	}
+	#gallery-container {
+        display: contents;
+    }
+    .gallery-image {
+        margin-left: 80px;
+        padding: 10px;
+    }
 }
