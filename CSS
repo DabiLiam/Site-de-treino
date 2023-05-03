@@ -271,3 +271,19 @@ a {
         padding: 10px;
     }
 }
+
+@media (max-width: 1600px) {
+	#navbar-container{
+        margin-left: 45rem;
+	}
+    #showcase-container{
+        margin-left: 100px;
+    }
+	#gallery-container {
+        display: contents;
+    }
+    .gallery-image {
+        margin-left: 130px;
+        padding: 10px;
+    }
+}
