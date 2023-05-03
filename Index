@@ -69,7 +69,7 @@
     <section id="product">
         <div class="headline">Como Surgiu ?</div>
         <div id="product-container">
-            <img src="/img/iphone-x.png" alt="">
+            <img src="70.5.png" alt="">
             <div class="items">
                 <div class="item">
                     <i class='bx bx-music' ></i>
@@ -124,7 +124,7 @@
     </section>
 
     <footer id="footer">
-        <p>Copyright 2020 - All rights reserved.</p>
+        <p>Copyright 2023 - All rights reserved.</p>
         <p></p>
     </footer>
 
